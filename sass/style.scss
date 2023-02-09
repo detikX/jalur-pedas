@@ -147,6 +147,7 @@ section {
 	width: 400%;
 	height: 100vh;
 	display: flex;
+    background: pink;
 	flex-wrap: nowrap;
 
     .mobil {
@@ -158,6 +159,7 @@ section {
         left: 10%;
         @media screen and (max-width:766px) {
             left: 5%;
+            bottom: 3%;
         }
         img {
             width: 100%;
