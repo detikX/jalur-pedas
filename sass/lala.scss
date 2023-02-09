@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.vertical-section{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  overflow-x: hidden;
+  display: flex;
+  position: sticky;
+  top:0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+section.lala {
+  min-width: 50vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4ch;
+}
+
+section:nth-child(even) {
+  background-color: teal;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
