@@ -51,6 +51,9 @@ section {
         font-size: 3rem;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
         text-align: center;
+        @media screen and (max-width:766px) {
+            width: 90%;
+        }
         h2 {
             // transform: skew(3deg, 1deg);
             font-size: 4rem;
@@ -65,7 +68,8 @@ section {
         &__small {
             font-size: 3.5rem !important;
             @media screen and (max-width:766px) {
-                font-size: 1.2rem !important;
+                font-size: 1.5rem !important;
+                margin-top: 4px;
             }
         }
     }
