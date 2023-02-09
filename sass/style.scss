@@ -121,6 +121,23 @@ section {
 	height: 100vh;
 	display: flex;
 	flex-wrap: nowrap;
+
+    .mobil {
+        width: 240px;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        z-index: 10;
+        left: 10%;
+        @media screen and (max-width:766px) {
+            left: 5%;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
 }
 
 .firstContainer {
