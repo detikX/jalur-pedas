@@ -88,6 +88,29 @@ section {
             object-fit: cover;
         }
     }
+    .relative {
+        position: relative;
+    }
+    .all-bg {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .img {
+        width: 100%;
+        height: 120px;
+        opacity: .7;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.totop {
+    position: relative;
+    z-index: 88;
 }
 
 .animasi {
