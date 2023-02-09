@@ -53,14 +53,20 @@ section {
         text-align: center;
         h2 {
             // transform: skew(3deg, 1deg);
-            font-size: 5rem;
+            font-size: 4rem;
             margin: 0;
             color: #f8d46e;
             text-shadow: 5px 5px 0 #bd2132, -2px -2px 0 #bd2132, 2px -2px 0 #bd2132, -2px 2px 0 #bd2132, 2px 2px 0 #bd2132;
             // text-shadow: 5px 5px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+            @media screen and (max-width:766px) {
+                font-size: 3rem;
+            }
         }
         &__small {
             font-size: 3.5rem !important;
+            @media screen and (max-width:766px) {
+                font-size: 1.2rem !important;
+            }
         }
     }
 }
