@@ -420,6 +420,19 @@ main {
   
   }
 
+  .ag-timeline-card_img-box {
+    @media screen and (max-width:766px) {
+      height: 280px;
+    }
+    img {
+      @media screen and (max-width:766px) {
+       width: 100% !important;
+       height: 100% !important;
+       object-fit: cover !important;
+      } 
+    }
+  }
+
   .tembakan {
     position: absolute;
     left: -12px;
