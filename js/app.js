@@ -77,14 +77,15 @@ $.ajax({
       // console.log(response.events.length);
       var i;
       var nul = [];
-
-      
+      //kalo ada iframe
+      // <iframe id="id${id_}" src="${url_media}" frameborder="0"  scrolling="no" allowfullscreen="true" class="tambah"></iframe>
       for (var i = 0; i < response.events.length; i++) {
         if (response.events[i].id % 2 !== 0) {
           // response.events[i].id.push(response.events[i].id.splice(i, 1)[0]);
           // console.log(i + ': ' + response.events[i].id.join(' '));
           // nul.push(response.events)
           var id_ = response.events[i].id;
+          var caption = response.events[i].text.caption;
           var headline = response.events[i].text.headline;
           var desc = response.events[i].text.text;
           var url_media = response.events[i].text.url_media;
@@ -112,10 +113,11 @@ $.ajax({
                       class="id${id_}"
                       src="${url_media}"
                       class="ag-timeline-card_img" />
-                      <iframe id="id${id_}" src="${url_media}" frameborder="0"  scrolling="no" allowfullscreen="true" class="tambah"></iframe>
+                     
                   </div>
                   <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">${headline}</div>
+                    <h3>${caption}</h3>
                     <div class="ag-timeline-card_desc">
                       ${desc}
                     </div>
@@ -157,10 +159,11 @@ $.ajax({
                 <img
                   src="${url_media}"
                   class="ag-timeline-card_img id${id_}" alt=""/>
-                  <iframe id="id${id_}" src="${url_media}" frameborder="0"  scrolling="no" allowfullscreen="true" class="tambah"></iframe>
+                 
               </div>
               <div class="ag-timeline-card_info">
                 <div class="ag-timeline-card_title">${headline}</div>
+                <h3>${caption}</h3>
                 <div class="ag-timeline-card_desc">
                   ${desc}
                 </div>
