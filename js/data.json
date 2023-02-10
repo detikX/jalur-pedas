@@ -102,6 +102,66 @@
                 "caption": "Oseng Mercon"
             },
             "group": "Magelang"
+        },
+        {
+            "id":6,
+            "start_date": {
+                "month": "7",
+                "day": "7",
+                "year": "2022",
+                "hour": "13",
+                "minute": "00",
+                "second": "00",
+                "millisecond": 0,
+                "format": "HH:MM"
+            },
+            "text": {
+                "headline": "Sragen",
+                "text": "<p>Kuat mengklaim kembali memergoki Yosua sedang berdekatan dengan Putri. Kali ini peristiwa itu terjadi di kamar. Waktu itu, Putri sedang sakit. Kuat diduga melaporkan peristiwa itu kepada Sambo. Itulah peristiwa yang disebut ‘merendahkan harkat dan martabat keluarga’, sehingga membuat Sambo marah.</p>",
+                "url_media":"img/sambel.png",
+                "caption": "Sambel Tumpeng"
+            },
+            "group": "Magelang"
+        },
+        {
+            "id":7,
+            "start_date": {
+                "month": "7",
+                "day": "7",
+                "year": "2022",
+                "hour": "13",
+                "minute": "00",
+                "second": "00",
+                "millisecond": 0,
+                "format": "HH:MM"
+            },
+            "text": {
+                "headline": "Madiun",
+                "text": "<p>Kuat mengklaim kembali memergoki Yosua sedang berdekatan dengan Putri. Kali ini peristiwa itu terjadi di kamar. Waktu itu, Putri sedang sakit. Kuat diduga melaporkan peristiwa itu kepada Sambo. Itulah peristiwa yang disebut ‘merendahkan harkat dan martabat keluarga’, sehingga membuat Sambo marah.</p>",
+                "url_media":"img/pecel.jpeg",
+                "caption": "Pecel Madiun"
+            },
+            "group": "Magelang"
+        },
+        {
+            "id":8,
+            "start_date": {
+                "month": "7",
+                "day": "7",
+                "year": "2022",
+                "hour": "13",
+                "minute": "00",
+                "second": "00",
+                "millisecond": 0,
+                "format": "HH:MM"
+            },
+            "text": {
+                "headline": "Surabaya",
+                "text": "<p>Sumber: Pergikuliner.com Yosua sedang berdekatan dengan Putri. Kali ini peristiwa itu terjadi di kamar. Waktu itu, Putri sedang sakit. Kuat diduga melaporkan peristiwa itu kepada Sambo. Itulah peristiwa yang disebut ‘merendahkan harkat dan martabat keluarga’, sehingga membuat Sambo marah.</p>",
+                "url_media":"img/rawonsetan.jpeg",
+                "caption": "Rawon Setan"
+            },
+            "group": "Magelang"
         }
     ]
 }
