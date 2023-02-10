@@ -137,6 +137,7 @@ $.ajax({
           var id_ = response.events[i].id;
           var headline = response.events[i].text.headline;
           var desc = response.events[i].text.text;
+          var caption = response.events[i].text.caption;
           var url_media = response.events[i].text.url_media;
           $(".ag-timeline_list").append(`
           <div class="js-timeline_item ag-timeline_item">
