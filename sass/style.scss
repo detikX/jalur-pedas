@@ -88,6 +88,11 @@ section {
     // background: #b75b00;
     position: relative;
     height: 100vh;
+    .deskripsi {
+        // background: rgba($color: $kuning-muda, $alpha: .4);
+        // backdrop-filter: blur(8px);
+        // padding: 8px;
+    }
     &__bg {
         position: absolute;
         left: 0;
@@ -104,7 +109,7 @@ section {
             right: 0;
             bottom: 0;
             // height: 200px;
-            background: linear-gradient(to top,$kuning-muda, transparent, $kuning-muda);
+            background: linear-gradient(to top,$kuning-muda, transparent 20%, $kuning-muda);
         }
         img {
             width: 100%;
