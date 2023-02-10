@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Unbounded:wght@600&display=swap');
 @import 'color';
 @import 'timeline';
+
+$kuning-muda : #fceab2;
 main,
 body {
     font-family: 'Poppins', cursive;
@@ -176,11 +178,11 @@ section {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: yellow;
+  background: $kuning-muda;
 }
 
 .lastContainer {
   display: flex;
-  height: 100vh;
-  background: yellow;
+  height: 50vh;
+  background: $kuning-muda;
 }

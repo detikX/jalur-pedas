@@ -1,5 +1,6 @@
 
 //timeline js
+$kuning-muda : #fceab2;
 main {
 
     .tl-slide .tl-slide-content-container .tl-slide-content {
@@ -28,6 +29,8 @@ main {
   .timeline {
     // display: none;
     position: relative;
+    background: $kuning-muda;
+    padding: 32px 0;
     &__bg {
       position: absolute;
       left: 0;
@@ -102,7 +105,7 @@ main {
       display: inline-block;
       width: 100%;
       max-width: 100%;
-      margin: 0 auto;
+      margin: 32px auto;
     
       position: relative;
     }
@@ -210,15 +213,17 @@ main {
         right: 0;
         border-radius: 6px;
         position: absolute;
-        background: rgba(48, 37, 14,.75);
+        // background: rgba(48, 37, 14,.75);
       }
       display: inline-block;
+      // border: 1px solid;
+      box-shadow: 2px 3px 4px #bbb;
       width: 45%;
       // z-index: 20;
       position: relative;
       margin: -77px 0 0;
       // background-color: #30250e;
-      background: url('../img/kertas.jpg');
+      // background: url('../img/kertas.jpg');
     
       opacity: 0;
     
@@ -226,10 +231,10 @@ main {
       -moz-border-radius: 6px;
       border-radius: 6px;
     
-      -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,.5);
-      -moz-box-shadow: 0 0 0 0 rgba(0,0,0,.5);
-      -o-box-shadow: 0 0 0 0 rgba(0,0,0,.5);
-      box-shadow: 0 0 0 0 rgba(0,0,0,.5);
+      // -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,.5);
+      // -moz-box-shadow: 0 0 0 0 rgba(0,0,0,.5);
+      // -o-box-shadow: 0 0 0 0 rgba(0,0,0,.5);
+      // box-shadow: 0 0 0 0 rgba(0,0,0,.5);
     
       -webkit-transition: -webkit-transform .5s, opacity .5s;
       -moz-transition: -moz-transform .5s, opacity .5s;
@@ -295,6 +300,7 @@ main {
     }
     .ag-timeline-card_info {
       padding: 20px 30px;
+      background: white;
       border-radius: 6px;
       position: relative;
       z-index: 20;
@@ -316,7 +322,7 @@ main {
       line-height: 1.45;
     
       font-size: 16px;
-      color: #cecece;
+      color: #333;
     }
     
     

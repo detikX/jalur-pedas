@@ -4,8 +4,8 @@
         {
             "id":1,
             "media": {
-                "url": "https://news.detik.com/x/detail/investigasi/20220808/Irjen-Sambo-di-Pusaran-Pembunuhan-Brigadir-J/images/ferdi-sambo--ha7hw.png",
-                "caption": "Irjen Sambo dalam perjalanan",
+                "url": "img/seblak.jpeg",
+                "caption": "Seblak Bandung",
                 "credit": "detikX"
             },
             "start_date": {
@@ -19,16 +19,16 @@
                 "format": "HH:MM"
             },
             "text": {
-                "headline": "Sabtu, 2 Juli 2022",
-                "text": "Keluarga besar Ferdy Sambo dan istrinya Putri Candrawathi berangkat ke Magelang, Jawa Tengah, untuk menengok kedua anaknya yang bersekolah di SMA Taruna Nusantara, Magelang. Rombongan ajudan diajak serta, termasuk Yosua, Richard Eliezer Pudihang Lumiu alias Bharada E, Bripka Ricky Rizal, Briptu Daden, serta asisten rumah tangga bernama Kuat Ma’ruf dan S. Mereka menginap di rumah Ferdy Sambo di Cempaka Residence, Mertoyudan, Magelang.",
-                "url_media":"https://news.detik.com/x/detail/investigasi/20220808/Irjen-Sambo-di-Pusaran-Pembunuhan-Brigadir-J/images/ferdi-sambo--ha7hw.png"
+                "headline": "Bandung",
+                "text": "Masakan Seblak yang identik dengan rasa pedas nya tentu tidak lepas dengan cabai-cabai khas yang digunakan. bla bla bla",
+                "url_media":"img/seblak.jpeg"
             },
             "group": "Magelang"
         },
         {
             "id":2,
             "media": {
-                "url": "https://news.detik.com/x/detail/investigasi/20220815/Permufakatan-Jahat-Sambo-di-Duren-Tiga/images/freddy-sambo-kg1tu7.png",
+                "url": "",
                 "caption": "Irjen Sambo dalam perjalanan",
                 "credit": "detikX"
             },
@@ -43,9 +43,9 @@
                 "format": "HH:MM"
             },
             "text": {
-                "headline": "Senin, 4 Juli 2022",
-                "text": "Kuat Ma’ruf mengklaim memergoki Yosua duduk berdekatan dengan Putri di sofa. Yosua disebut sempat mencoba membopong Putri untuk naik ke kamarnya di lantai dua lantaran wajah Putri terlihat pucat. Putri disebut sempat menepis tangan Yosua. Kuat pun langsung menegur Yosua karena menuding apa yang dilakukan Yosua itu tidak sopan.",
-                "url_media":"https://awsimages.detik.net.id/community/media/visual/2022/08/10/sopir-sambo-kuwat-maruf-km-juga-menjadi-tersangka-dalam-kasus-ini-tersangka-km-adalah-juga-turut-dalam-membantu-dan-menyaksika_169.jpeg?w=700&q=90"
+                "headline": "Bandung",
+                "text": "Masakan Seblak yang identik dengan rasa pedas nya tentu tidak lepas dengan cabai-cabai khas yang digunakan. bla bla bla",
+                "url_media":"img/baso.jpeg"
             },
             "group": "Magelang"
         },
@@ -235,7 +235,7 @@
             "text": {
                 "headline": "Kamis, 11 Agustus 2022",
                 "text": "<p>Atas terungkapnya kasus pembunuhan Brigadir J ini, Sambo pun mengirimkan surat permohonan maafnya kepada Kapolri beserta semua sejawatnya yang ikut terlibat dalam upaya <i>obstruction of justice</i>. Surat itu dibacakan oleh pengacara keluarga Sambo, Arman Hanis, di depan awak media.</p><p>'Izinkan saya sebagai manusia yang tidak lepas dari kekhilafan secara tulus meminta maaf dan memohon maaf sebesar-besarnya, khususnya kepada rekan sejawat Polri beserta keluarga serta masyarakat luas yang terdampak akibat perbuatan saya yang memberikan informasi tidak benar serta memicu polemik dalam pusaran kasus Duren Tiga yang menimpa saya dan keluarga,' sepotong isi surat Sambo yang dibacakan Arman Hanis.</p>",
-                "url_media":"https://20.detik.com/embed/220811149"
+                "url_media":""
             },
             "group": "Aktor Pembunuhan Berencana"
         },

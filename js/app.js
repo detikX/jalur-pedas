@@ -77,6 +77,7 @@ $.ajax({
       // console.log(response.events.length);
       var i;
       var nul = [];
+
       
       for (var i = 0; i < response.events.length; i++) {
         if (response.events[i].id % 2 !== 0) {
@@ -87,7 +88,6 @@ $.ajax({
           var headline = response.events[i].text.headline;
           var desc = response.events[i].text.text;
           var url_media = response.events[i].text.url_media;
-          // console.log(id_);
           $('iframe').hide()
   
           $(".ag-timeline_list").append(`
