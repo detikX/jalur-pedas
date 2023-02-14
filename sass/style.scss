@@ -371,8 +371,10 @@ section {
     .wrap {
         display: block;
         .peta {
-            display: inline-block;
-            width: 50%;
+            // display: inline-block;
+            // width: 40%;
+            width: 60%;
+            margin: 0 auto 16px;
             height: auto;
             @media screen and (max-width:766px) {
                 width: 100%;
@@ -384,8 +386,8 @@ section {
             }
         }
         .datanya {
-            display: inline-block;
-            width: 45%;
+            // display: inline-block;
+            // width: 55%;
             position: relative;
             .abs {
                 position: absolute;
