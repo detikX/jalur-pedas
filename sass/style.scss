@@ -390,16 +390,20 @@ section {
             // width: 55%;
             position: relative;
             margin-bottom: 32px;
+            // h3 {
+            //     position: absolute;
+            //     top: -22px;
+            //     left: 8px;
+            //     background: rgba($color: #e2b435, $alpha: .8);
+            //     // background: #e2b435;
+            //     color: #3f2c00;
+            //     font-family: 'Unbounded';
+            //     width: fit-content;
+            //     padding: 8px;
+            // }
             h3 {
-                position: absolute;
-                top: -22px;
-                left: 8px;
-                background: rgba($color: #e2b435, $alpha: .8);
-                // background: #e2b435;
-                color: red;
                 font-family: 'Unbounded';
-                width: fit-content;
-                padding: 8px;
+                color: #bb1d2d;
             }
             .abs {
                 position: absolute;
