@@ -234,3 +234,180 @@ section {
   height: 50vh;
   background: $kuning-muda;
 }
+
+.alt-infografik {
+    // background: #b35f27;
+    background: $kuning-muda;
+    position: relative;
+    // overflow: hidden;
+    .img-cabe {
+        position: absolute;
+        right: -42px;
+        z-index: 12;
+        top: -32px;
+        width: 320px;
+        height: auto;
+        @media screen and (max-width:766px) {
+            position: absolute;
+            right: -35px;
+            z-index: 12;
+            top: 8px;
+            width: 108px;
+            height: auto;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .isi {
+        // background: white;
+        // width: 70%;
+        padding: 16px;
+        //box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        // transform: rotate(.7deg);
+        @media screen and (max-width:766px) {
+            padding: 2px;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        h3 {
+            position: relative;
+            font-weight: bold;
+            margin-bottom: 16px;
+            font-size: 2.2rem;
+            width: 65%;
+            font-family: 'Unbounded';
+            color: #bb1d2d;
+            @media screen and (max-width:766px) {
+                font-size: 2rem;
+                width: 100%;
+            }
+            &::before {
+                position: absolute;
+                bottom: -2px;
+                left: 0;
+                width: 250px;
+                height: 2px;
+                // background: #bb1d2d;
+                background: linear-gradient(to right, #bb1d2d, transparent);
+                content: "";
+            }
+        }
+        h4 {
+            color: #6a883a;
+            font-weight: bold;
+            font-family: 'Unbounded';
+            text-shadow: 1px 1px #b35f27;
+        }
+        li {
+            list-style: none;
+            display: block;
+            margin-bottom: 8px;
+            .left-side,.right-side {
+                display: inline-block;
+            }
+            .left-side {
+                width: 120px;
+                height: 120px;
+                // border-radius: 50%;
+                text-align: center;
+                padding: 4px;
+                // background: #bb1d2d ;
+                vertical-align: middle;
+                i {
+                    font-size: 32px;
+                    color: white;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+            .right-side {
+                display: inline-block;
+                width: 65%;
+                // background: rgba(#e4e5ab,.9);
+                padding: 8px;
+                vertical-align: middle;
+                @media screen and (max-width:766px) {
+                    width: 60%;
+                }
+            }
+        }
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        // float: right;
+    }
+}
+
+.alt-rute {
+    background: #b35f27;
+    .high-title {
+        position: relative;
+        width: fit-content;
+        text-align: center;
+        padding: 8px;
+        top: -42px;
+        margin: 0 auto;
+        font-size: 3rem;
+        font-family: 'Unbounded';
+        color: #60370f;
+        background: $kuning-muda;
+        box-shadow: 2px 2px white;
+        border: 4px solid #60370f;
+        @media screen and (max-width:766px) {
+            font-size: 2rem;
+            padding: 2px;
+        }
+    }
+    .wrap {
+        display: block;
+        .peta {
+            display: inline-block;
+            width: 50%;
+            height: auto;
+            @media screen and (max-width:766px) {
+                width: 100%;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .datanya {
+            display: inline-block;
+            width: 45%;
+            position: relative;
+            .abs {
+                position: absolute;
+                right: -32px;
+                top: -135px;
+                width: 200px;
+                height: auto;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+            @media screen and (max-width:766px) {
+                width: 100%;
+                margin-top: 8px;
+            }
+            background: white;
+            padding: 8px;
+            border: 1px solid #bb1d2d;
+            box-shadow: 8px 8px #60370f;
+            transform: rotate(1deg);
+        }
+    }
+}
