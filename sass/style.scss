@@ -91,6 +91,11 @@ section {
         // background: rgba($color: $kuning-muda, $alpha: .4);
         // backdrop-filter: blur(8px);
         // padding: 8px;
+        p {
+            @media screen and (max-width: 766px) {
+                font-size: 12.5px;
+            }
+        }
     }
     .images {
         width: 100%;
