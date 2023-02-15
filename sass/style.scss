@@ -365,8 +365,13 @@ section {
     background: #b35f27;
     .nama-kota {
         font-family: 'Unbounded';
-        font-size: 3rem;
-        color: #fceab2;
+        font-size: 2.7rem;
+        padding: 4px;
+        background-color: #fceab2;
+        width: fit-content;
+        transform: rotate(.8deg);
+        box-shadow: 3px 3px #444;
+        color: #5e431e;
         @media screen and (max-width: 766px) {
             font-size: 2rem;
         }
