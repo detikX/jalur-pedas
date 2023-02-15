@@ -369,6 +369,22 @@ section {
 
 .alt-rute {
     background: #b35f27;
+    position: relative;
+    .bgbg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        opacity: .5;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
     .nama-kota {
         font-family: 'Unbounded';
         font-size: 2.7rem;
@@ -389,15 +405,33 @@ section {
         padding: 8px;
         top: -62px;
         margin: 0 auto;
-        font-size: 3rem;
         font-family: 'Unbounded';
         color: #60370f;
         background: $kuning-muda;
         box-shadow: 2px 2px white;
         border: 4px solid #60370f;
-        @media screen and (max-width: 766px) {
-            font-size: 2rem;
-            padding: 2px;
+        h3 {
+            position: relative;
+            z-index: 22;
+            font-size: 3rem;
+            @media screen and (max-width: 766px) {
+                font-size: 2rem;
+                padding: 2px;
+            }
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            opacity: .5;
+            // filter: blur(1px);
+            // z-index: -1;
+            top: 0;
+            bottom: 0;
+            background-image: url('../img/bg2.png');
+            background-position: center;
+            background-size: cover;
         }
     }
     .wrap {
