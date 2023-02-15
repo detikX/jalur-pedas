@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Unbounded:wght@600&display=swap');
 @import 'color';
 @import 'timeline';
-
-$kuning-muda : #fceab2;
+$kuning-muda: #fceab2;
 main,
 body {
     font-family: 'Poppins', cursive;
@@ -54,7 +53,7 @@ section {
         font-size: 3rem;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
         text-align: center;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width: 766px) {
             width: 90%;
         }
         h2 {
@@ -64,13 +63,13 @@ section {
             color: #f8d46e;
             text-shadow: 5px 5px 0 #bd2132, -2px -2px 0 #bd2132, 2px -2px 0 #bd2132, -2px 2px 0 #bd2132, 2px 2px 0 #bd2132;
             // text-shadow: 5px 5px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-            @media screen and (max-width:766px) {
+            @media screen and (max-width: 766px) {
                 font-size: 3rem;
             }
         }
         &__small {
             font-size: 3.5rem !important;
-            @media screen and (max-width:766px) {
+            @media screen and (max-width: 766px) {
                 font-size: 1.5rem !important;
                 margin-top: 4px;
             }
@@ -119,7 +118,7 @@ section {
             right: 0;
             bottom: 0;
             // height: 200px;
-            background: linear-gradient(to top,$kuning-muda, transparent 20%, $kuning-muda);
+            background: linear-gradient(to top, $kuning-muda, transparent 20%, $kuning-muda);
         }
         img {
             width: 100%;
@@ -178,29 +177,32 @@ section {
     }
 }
 
-  /* the slides */
+
+/* the slides */
+
 .slick-slide {
     margin: 0 16px;
-    @media screen and (max-width:766px) {
+    @media screen and (max-width: 766px) {
         margin: 0 8px;
     }
 }
 
+
 /* the parent */
+
 .slick-list {
     margin: 0 -16px;
-    @media screen and (max-width:766px) {
+    @media screen and (max-width: 766px) {
         margin: 0 -8px;
     }
 }
 
 .containerx {
-	width: 400%;
-	height: 100vh;
-	display: flex;
+    width: 400%;
+    height: 100vh;
+    display: flex;
     background: pink;
-	flex-wrap: nowrap;
-
+    flex-wrap: nowrap;
     .mobil {
         width: 240px;
         height: auto;
@@ -208,7 +210,7 @@ section {
         bottom: 0;
         z-index: 10;
         left: 10%;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width: 766px) {
             left: 5%;
             bottom: 3%;
         }
@@ -221,18 +223,18 @@ section {
 }
 
 .firstContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  background: $kuning-muda;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: $kuning-muda;
 }
 
 .lastContainer {
-  display: flex;
-  height: 50vh;
-  background: $kuning-muda;
+    display: flex;
+    height: 50vh;
+    background: $kuning-muda;
 }
 
 .alt-infografik {
@@ -247,7 +249,7 @@ section {
         top: -32px;
         width: 320px;
         height: auto;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width: 766px) {
             position: absolute;
             right: -35px;
             z-index: 12;
@@ -261,14 +263,13 @@ section {
             object-fit: contain;
         }
     }
-
     .isi {
         // background: white;
         // width: 70%;
         padding: 16px;
         //box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
         // transform: rotate(.7deg);
-        @media screen and (max-width:766px) {
+        @media screen and (max-width: 766px) {
             padding: 2px;
         }
         ul {
@@ -283,7 +284,7 @@ section {
             width: 65%;
             font-family: 'Unbounded';
             color: #bb1d2d;
-            @media screen and (max-width:766px) {
+            @media screen and (max-width: 766px) {
                 font-size: 2rem;
                 width: 100%;
             }
@@ -303,12 +304,24 @@ section {
             font-weight: bold;
             font-family: 'Unbounded';
             text-shadow: 1px 1px #b35f27;
+            font-size: 2rem;
+            @media screen and (max-width: 766px) {
+                font-size: 1.5rem;
+            }
         }
         li {
             list-style: none;
             display: block;
-            margin-bottom: 8px;
-            .left-side,.right-side {
+            // margin-bottom: 8px;
+            padding: 8px;
+            &:nth-child(odd) {
+                background: rgba($color: #6a883a, $alpha: .3);
+            }
+            &:nth-child(even) {
+                background: rgba($color: #6a883a, $alpha: .1);
+            }
+            .left-side,
+            .right-side {
                 display: inline-block;
             }
             .left-side {
@@ -335,7 +348,7 @@ section {
                 // background: rgba(#e4e5ab,.9);
                 padding: 8px;
                 vertical-align: middle;
-                @media screen and (max-width:766px) {
+                @media screen and (max-width: 766px) {
                     width: 60%;
                 }
             }
@@ -350,6 +363,14 @@ section {
 
 .alt-rute {
     background: #b35f27;
+    .nama-kota {
+        font-family: 'Unbounded';
+        font-size: 3rem;
+        color: #fceab2;
+        @media screen and (max-width: 766px) {
+            font-size: 2rem;
+        }
+    }
     .high-title {
         position: relative;
         width: fit-content;
@@ -363,7 +384,7 @@ section {
         background: $kuning-muda;
         box-shadow: 2px 2px white;
         border: 4px solid #60370f;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width: 766px) {
             font-size: 2rem;
             padding: 2px;
         }
@@ -376,7 +397,7 @@ section {
             width: 60%;
             margin: 0 auto 36px;
             height: auto;
-            @media screen and (max-width:766px) {
+            @media screen and (max-width: 766px) {
                 width: 100%;
             }
             img {
@@ -439,7 +460,7 @@ section {
                         width: 100%;
                         height: 320px;
                         margin-bottom: 8px;
-                        @media screen and (max-width:766px) {
+                        @media screen and (max-width: 766px) {
                             height: 240px;
                         }
                         img {
