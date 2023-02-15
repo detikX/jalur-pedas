@@ -2,6 +2,20 @@
 @import 'color';
 @import 'timeline';
 $kuning-muda: #fceab2;
+.firstletter {
+    &::first-letter {
+        float: left;
+        font-weight: bold;
+        margin-right: 8px;
+        font-size: 60px;
+        font-size: 6rem;
+        line-height: 40px;
+        line-height: 4rem;
+        height: 4rem;
+        text-transform: uppercase;
+    }
+}
+
 main,
 body {
     font-family: 'Poppins', cursive;
