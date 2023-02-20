@@ -478,7 +478,7 @@ section {
             // width: 55%;
             position: relative;
             background: #e4e3b0;
-            height: 424px;
+            // height: 424px;
             margin-bottom: 32px;
             @media screen and (max-width: 766px) {
                 height: auto;
@@ -533,8 +533,8 @@ section {
                         }
                     }
                     .img {
-                        width: 53%;
-                        height: 422px;
+                        // width: 53%;
+                        height: 320px;
                         display: inline-block;
                         margin-bottom: 0;
                         vertical-align: top;
@@ -552,9 +552,9 @@ section {
                     .cont {
                         padding: 8px;
                         display: inline-block;
-                        width: 45%;
-                        overflow: hidden;
-                        height: 424px;
+                        // width: 45%;
+                        // overflow: hidden;
+                        height: 224px;
                         @media screen and (max-width: 766px) {
                             width: 100%;
                             height: auto;
